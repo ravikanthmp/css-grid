@@ -12,12 +12,44 @@
   <div class="container">
     <div class="item">1</div>
     <div class="item">2</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
   </div>
 
   <style>
     .container {
       display: grid;
       grid-gap: 20px;
+
+      grid-template-columns: 100px 100px;
+
+      /* By default grid-auto-flow is row. i.e any extra children not explicity mapped is moved to rows. 
+      To create columns instead, we can specify grid-auto-flow: columns
+      */
+
+      grid-auto-columns: 100px;
+      grid-auto-flow: column;
+
+
+
+
+
     }
   </style>
 </body>
