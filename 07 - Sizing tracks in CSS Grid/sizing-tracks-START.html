@@ -20,17 +20,15 @@
     <div class="item">8</div>
     <div class="item">9</div>
     <div class="item">10</div>
-    <div class="item">11</div>
-    <div class="item">12</div>
-    <div class="item">13</div>
-    <div class="item">14</div>
-    <div class="item">15</div>
   </div>
 
   <style>
     .container {
+      border : 10px solid black;
       display: grid;
       grid-gap: 20px;
+      grid-template-columns: 1fr 2fr auto 4fr;
+      grid-auto-flow: row;
     }
   </style>
 </body>
